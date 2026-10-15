@@ -1,21 +1,13 @@
-# ⚡ Mini Step-Up Circuit Diagram
+# Mini Step-Up Circuit Diagram
 
 Oleh: **Dicky Yased Arya Muyla**
 
 Proyek ini adalah desain rangkaian **Mini Step-Up Regulator (Boost Converter)** menggunakan IC **B628** (sering tertulis sebagai DB628 / MT3608). Rangkaian ini mampu menaikkan tegangan input rendah menjadi tegangan output yang lebih tinggi secara stabil dengan memanfaatkan *resistor divider* atau modulasi PWM.
 
----
-
-## 📌 Fitur & Spesifikasi Utama
-
 * **IC Utama:** B628 / DB628 (High-Efficiency Step-Up DC-DC Converter)
 * **Rentang Input:** 1V – 22V DC
 * **Tegangan Output:** *Fixed* (Ditetapkan menggunakan *resistor divider*, contoh konfigurasi: **12.14V**)
 * **Tegangan Referensi (Vref):** 0.6V (Dapat disesuaikan dengan kebutuhan variabel Anda)
-
----
-
-## 🖼️ Tampilan Proyek
 
 Berikut adalah visualisasi fisik atau tata letak komponen dari proyek *Mini Step-Up* ini:
 
@@ -23,7 +15,7 @@ Berikut adalah visualisasi fisik atau tata letak komponen dari proyek *Mini Step
 
 ---
 
-## 🧮 Rumus & Cara Perhitungan Output
+## Rumus & Cara Perhitungan Output
 
 Tegangan output pada rangkaian ini dapat diatur melalui dua metode: menggunakan kombinasi resistor statis (*resistor divider*) atau dikendalikan secara dinamis menggunakan sinyal PWM.
 
@@ -41,7 +33,7 @@ Untuk mengontrol atau mengubah tegangan output melalui mikrokontroler (seperti A
 
 ---
 
-## 🔌 Skema Diagram Rangkaian
+## Skema Diagram Rangkaian
 
 Gunakan skema di bawah ini sebagai panduan utama untuk proses perakitan komponen (*soldering*) atau pembuatan Jalur PCB:
 
@@ -49,7 +41,7 @@ Gunakan skema di bawah ini sebagai panduan utama untuk proses perakitan komponen
 
 ---
 
-## 🛠️ Komponen yang Dibutuhkan
+## Komponen yang Dibutuhkan
 * 1x IC Step-Up (B628 / DB628)
 * 1x Induktor (Ukurannya disesuaikan dengan target arus)
 * 1x Dioda Schottky (Untuk *switching* cepat)
